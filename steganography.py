@@ -1,6 +1,6 @@
 from PIL import Image
 
-current_image = "C:\\Users\\Salim\\Downloads\\chien.png"
+current_image = "./chien.png"
 
 
 def decode(image):
@@ -62,6 +62,6 @@ def code(current_image):
     
 
 
-encoded_image = "C:\\Users\\Salim\\Desktop\\Encode\\encoded.png"
+encoded_image = "./encoded.png"
 # code(current_image)
 decode(encoded_image)
